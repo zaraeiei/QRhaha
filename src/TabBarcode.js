@@ -1,20 +1,12 @@
-import React, { Component } from 'react';
-import { View } from 'react-native';
-
-import Barcode from 'react-native-barcode-builder';
+import React, { Component } from 'react'
+import { Text, View } from 'react-native'
 
 export default class TabBarcode extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-    };
-  }
-
   render() {
     return (
       <View>
-        <Barcode value="Hello World" format="CODE128" />
+        <Text> textInComponent </Text>
       </View>
-    );
+    )
   }
 }
